@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AgnosticBulletin.xcodeproj">
+      location = "self:/Users/isidorebaldado/Desktop/AgnosticBulletin copy/CloudKitBulletin.xcodeproj">
    </FileRef>
 </Workspace>

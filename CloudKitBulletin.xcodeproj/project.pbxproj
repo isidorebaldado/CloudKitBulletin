@@ -8,20 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		61A7CC09202BBC8A00ACA67C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC08202BBC8A00ACA67C /* AppDelegate.swift */; };
-		61A7CC0B202BBC8A00ACA67C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC0A202BBC8A00ACA67C /* ViewController.swift */; };
+		61A7CC0B202BBC8A00ACA67C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC0A202BBC8A00ACA67C /* LoginViewController.swift */; };
 		61A7CC0E202BBC8A00ACA67C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A7CC0C202BBC8A00ACA67C /* Main.storyboard */; };
 		61A7CC10202BBC8A00ACA67C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A7CC0F202BBC8A00ACA67C /* Assets.xcassets */; };
 		61A7CC13202BBC8A00ACA67C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A7CC11202BBC8A00ACA67C /* LaunchScreen.storyboard */; };
+		61A7CC1B202BBF3300ACA67C /* PostsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC1A202BBF3300ACA67C /* PostsListTableViewController.swift */; };
+		61A7CC21202BBF8A00ACA67C /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC20202BBF8A00ACA67C /* PostController.swift */; };
+		61A7CC23202BBF9C00ACA67C /* IdentityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC22202BBF9C00ACA67C /* IdentityController.swift */; };
+		61A7CC26202BBFAF00ACA67C /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC25202BBFAF00ACA67C /* CloudKitManager.swift */; };
+		61A7CC2A202BBFCD00ACA67C /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC29202BBFCD00ACA67C /* DataProvider.swift */; };
+		61A7CC2C202BC08000ACA67C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC2B202BC08000ACA67C /* Post.swift */; };
+		61A7CC52202BC7F900ACA67C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A7CC51202BC7F900ACA67C /* CloudKit.framework */; };
+		61A7CC54202BC91B00ACA67C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC53202BC91B00ACA67C /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		61A7CC05202BBC8A00ACA67C /* AgnosticBulletin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgnosticBulletin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A7CC05202BBC8A00ACA67C /* CloudKitBulletin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKitBulletin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A7CC08202BBC8A00ACA67C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61A7CC0A202BBC8A00ACA67C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61A7CC0A202BBC8A00ACA67C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		61A7CC0D202BBC8A00ACA67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61A7CC0F202BBC8A00ACA67C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61A7CC12202BBC8A00ACA67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61A7CC14202BBC8A00ACA67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A7CC1A202BBF3300ACA67C /* PostsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListTableViewController.swift; sourceTree = "<group>"; };
+		61A7CC20202BBF8A00ACA67C /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		61A7CC22202BBF9C00ACA67C /* IdentityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityController.swift; sourceTree = "<group>"; };
+		61A7CC25202BBFAF00ACA67C /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		61A7CC29202BBFCD00ACA67C /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		61A7CC2B202BC08000ACA67C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		61A7CC4F202BC7F700ACA67C /* CloudKitBulletin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitBulletin.entitlements; sourceTree = "<group>"; };
+		61A7CC51202BC7F900ACA67C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		61A7CC53202BC91B00ACA67C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A7CC52202BC7F900ACA67C /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,38 +56,95 @@
 		61A7CBFC202BBC8A00ACA67C = {
 			isa = PBXGroup;
 			children = (
-				61A7CC07202BBC8A00ACA67C /* AgnosticBulletin */,
+				61A7CC4F202BC7F700ACA67C /* CloudKitBulletin.entitlements */,
+				61A7CC07202BBC8A00ACA67C /* CloudKitBulletin */,
 				61A7CC06202BBC8A00ACA67C /* Products */,
+				61A7CC50202BC7F900ACA67C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		61A7CC06202BBC8A00ACA67C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61A7CC05202BBC8A00ACA67C /* AgnosticBulletin.app */,
+				61A7CC05202BBC8A00ACA67C /* CloudKitBulletin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		61A7CC07202BBC8A00ACA67C /* AgnosticBulletin */ = {
+		61A7CC07202BBC8A00ACA67C /* CloudKitBulletin */ = {
+			isa = PBXGroup;
+			children = (
+				61A7CC1F202BBF7B00ACA67C /* Model Controllers */,
+				61A7CC1E202BBF5600ACA67C /* Resources */,
+				61A7CC1D202BBF5100ACA67C /* Model */,
+				61A7CC1C202BBF4500ACA67C /* View Controllers */,
+			);
+			path = CloudKitBulletin;
+			sourceTree = "<group>";
+		};
+		61A7CC1C202BBF4500ACA67C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				61A7CC0A202BBC8A00ACA67C /* LoginViewController.swift */,
+				61A7CC1A202BBF3300ACA67C /* PostsListTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		61A7CC1D202BBF5100ACA67C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61A7CC2B202BC08000ACA67C /* Post.swift */,
+				61A7CC53202BC91B00ACA67C /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61A7CC1E202BBF5600ACA67C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				61A7CC08202BBC8A00ACA67C /* AppDelegate.swift */,
-				61A7CC0A202BBC8A00ACA67C /* ViewController.swift */,
 				61A7CC0C202BBC8A00ACA67C /* Main.storyboard */,
 				61A7CC0F202BBC8A00ACA67C /* Assets.xcassets */,
 				61A7CC11202BBC8A00ACA67C /* LaunchScreen.storyboard */,
 				61A7CC14202BBC8A00ACA67C /* Info.plist */,
 			);
-			path = AgnosticBulletin;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		61A7CC1F202BBF7B00ACA67C /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				61A7CC24202BBFA500ACA67C /* Backend */,
+				61A7CC20202BBF8A00ACA67C /* PostController.swift */,
+				61A7CC22202BBF9C00ACA67C /* IdentityController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		61A7CC24202BBFA500ACA67C /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				61A7CC25202BBFAF00ACA67C /* CloudKitManager.swift */,
+				61A7CC29202BBFCD00ACA67C /* DataProvider.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		61A7CC50202BC7F900ACA67C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61A7CC51202BC7F900ACA67C /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61A7CC04202BBC8A00ACA67C /* AgnosticBulletin */ = {
+		61A7CC04202BBC8A00ACA67C /* CloudKitBulletin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61A7CC17202BBC8A00ACA67C /* Build configuration list for PBXNativeTarget "AgnosticBulletin" */;
+			buildConfigurationList = 61A7CC17202BBC8A00ACA67C /* Build configuration list for PBXNativeTarget "CloudKitBulletin" */;
 			buildPhases = (
 				61A7CC01202BBC8A00ACA67C /* Sources */,
 				61A7CC02202BBC8A00ACA67C /* Frameworks */,
@@ -79,9 +154,9 @@
 			);
 			dependencies = (
 			);
-			name = AgnosticBulletin;
+			name = CloudKitBulletin;
 			productName = AgnosticBulletin;
-			productReference = 61A7CC05202BBC8A00ACA67C /* AgnosticBulletin.app */;
+			productReference = 61A7CC05202BBC8A00ACA67C /* CloudKitBulletin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,10 +172,21 @@
 					61A7CC04202BBC8A00ACA67C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = 61A7CC00202BBC8A00ACA67C /* Build configuration list for PBXProject "AgnosticBulletin" */;
+			buildConfigurationList = 61A7CC00202BBC8A00ACA67C /* Build configuration list for PBXProject "CloudKitBulletin" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +199,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61A7CC04202BBC8A00ACA67C /* AgnosticBulletin */,
+				61A7CC04202BBC8A00ACA67C /* CloudKitBulletin */,
 			);
 		};
 /* End PBXProject section */
@@ -136,7 +222,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61A7CC0B202BBC8A00ACA67C /* ViewController.swift in Sources */,
+				61A7CC0B202BBC8A00ACA67C /* LoginViewController.swift in Sources */,
+				61A7CC2A202BBFCD00ACA67C /* DataProvider.swift in Sources */,
+				61A7CC21202BBF8A00ACA67C /* PostController.swift in Sources */,
+				61A7CC26202BBFAF00ACA67C /* CloudKitManager.swift in Sources */,
+				61A7CC23202BBF9C00ACA67C /* IdentityController.swift in Sources */,
+				61A7CC54202BC91B00ACA67C /* User.swift in Sources */,
+				61A7CC2C202BC08000ACA67C /* Post.swift in Sources */,
+				61A7CC1B202BBF3300ACA67C /* PostsListTableViewController.swift in Sources */,
 				61A7CC09202BBC8A00ACA67C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,11 +367,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudKitBulletin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P2KUM2RUDP;
-				INFOPLIST_FILE = AgnosticBulletin/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CloudKitBulletin/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Isidore.AgnosticBulletin;
+				PRODUCT_BUNDLE_IDENTIFIER = Isidore.UNUSED.CloudKitBulletin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,11 +383,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudKitBulletin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P2KUM2RUDP;
-				INFOPLIST_FILE = AgnosticBulletin/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CloudKitBulletin/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Isidore.AgnosticBulletin;
+				PRODUCT_BUNDLE_IDENTIFIER = Isidore.UNUSED.CloudKitBulletin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		61A7CC00202BBC8A00ACA67C /* Build configuration list for PBXProject "AgnosticBulletin" */ = {
+		61A7CC00202BBC8A00ACA67C /* Build configuration list for PBXProject "CloudKitBulletin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61A7CC15202BBC8A00ACA67C /* Debug */,
@@ -312,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61A7CC17202BBC8A00ACA67C /* Build configuration list for PBXNativeTarget "AgnosticBulletin" */ = {
+		61A7CC17202BBC8A00ACA67C /* Build configuration list for PBXNativeTarget "CloudKitBulletin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61A7CC18202BBC8A00ACA67C /* Debug */,
