@@ -30,7 +30,6 @@ class LoginViewController: UIViewController {
         setupViews()
     }
     
-    
     func setupViews(){
         
         for textField in view.subviews.first!.subviews where textField is UITextField  {
@@ -83,8 +82,10 @@ class LoginViewController: UIViewController {
             return
             
         case .Firestore:
-            guard let username = usernameField.text, !username.isEmpty else {return}
-            guard let password = passwordField.text, !password.isEmpty else {return}
+            //guard let username = usernameField.text, !username.isEmpty else {return}
+            //guard let password = passwordField.text, !password.isEmpty else {return}
+            //For Debug:
+            performSegue(withIdentifier: "loggedIn", sender: nil)
             return
         }
     }
@@ -102,8 +103,10 @@ class LoginViewController: UIViewController {
         setupViews()
         if segmentedControl.selectedSegmentIndex == 0{
             backendMode = .Cloudkit
+            PostController.shared.dataProvider = CloudKitManager.shared
         } else{
             backendMode = .Firestore
+            PostController.shared.dataProvider = FirestoreManager.shared
         }
     }
 }

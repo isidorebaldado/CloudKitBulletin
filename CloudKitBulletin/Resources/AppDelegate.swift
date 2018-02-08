@@ -9,6 +9,7 @@
 import UIKit
 import UserNotifications
 import CloudKit
+import Firebase
 
 func runOnMain(_ task: @escaping () -> Void){
     DispatchQueue.main.async {
@@ -30,6 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     // MARK: - App Life Cycle
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
         attemptRegisterForNotifications(application)
         return true
     }

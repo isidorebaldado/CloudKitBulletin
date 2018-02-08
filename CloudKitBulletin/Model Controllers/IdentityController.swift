@@ -15,6 +15,8 @@ class IdentityController{
     
     var backendMode = BackendType.Cloudkit
     
+    // Debug Username for Firestore testing
+    
     var userID: CKRecordID?
     
     func isUserLoggedIn(completion: @escaping (_ loggedIn: Bool)->Void){
