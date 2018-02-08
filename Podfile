@@ -6,5 +6,7 @@ target 'CloudKitBulletin' do
   use_frameworks!
 
   # Pods for CloudKitBulletin
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
 
 end

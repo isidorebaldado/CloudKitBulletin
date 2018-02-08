@@ -22,9 +22,12 @@
 		61A7CC54202BC91B00ACA67C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC53202BC91B00ACA67C /* User.swift */; };
 		61F42385202CD3C600C35145 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F42384202CD3C600C35145 /* FirestoreManager.swift */; };
 		61F42387202CD62D00C35145 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61F42386202CD62D00C35145 /* GoogleService-Info.plist */; };
+		BB7A80C0C6E2E60503AEE34D /* Pods_CloudKitBulletin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3567CE1C7C249D45A15C50 /* Pods_CloudKitBulletin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4394A67D231AA52128B49810 /* Pods-CloudKitBulletin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudKitBulletin.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudKitBulletin/Pods-CloudKitBulletin.release.xcconfig"; sourceTree = "<group>"; };
+		5558E8977FA28DF4B7D3EDB0 /* Pods-CloudKitBulletin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudKitBulletin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudKitBulletin/Pods-CloudKitBulletin.debug.xcconfig"; sourceTree = "<group>"; };
 		61A7CC05202BBC8A00ACA67C /* CloudKitBulletin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKitBulletin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A7CC08202BBC8A00ACA67C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61A7CC0A202BBC8A00ACA67C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +46,7 @@
 		61A7CC53202BC91B00ACA67C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		61F42384202CD3C600C35145 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
 		61F42386202CD62D00C35145 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC3567CE1C7C249D45A15C50 /* Pods_CloudKitBulletin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudKitBulletin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,12 +55,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				61A7CC52202BC7F900ACA67C /* CloudKit.framework in Frameworks */,
+				BB7A80C0C6E2E60503AEE34D /* Pods_CloudKitBulletin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B9069364B6FD10F47EBF97A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5558E8977FA28DF4B7D3EDB0 /* Pods-CloudKitBulletin.debug.xcconfig */,
+				4394A67D231AA52128B49810 /* Pods-CloudKitBulletin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		61A7CBFC202BBC8A00ACA67C = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +78,7 @@
 				61A7CC07202BBC8A00ACA67C /* CloudKitBulletin */,
 				61A7CC06202BBC8A00ACA67C /* Products */,
 				61A7CC50202BC7F900ACA67C /* Frameworks */,
+				1B9069364B6FD10F47EBF97A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				61A7CC51202BC7F900ACA67C /* CloudKit.framework */,
+				AC3567CE1C7C249D45A15C50 /* Pods_CloudKitBulletin.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61A7CC17202BBC8A00ACA67C /* Build configuration list for PBXNativeTarget "CloudKitBulletin" */;
 			buildPhases = (
+				DF0AFBDC1CAB56DEE9AB0924 /* [CP] Check Pods Manifest.lock */,
 				61A7CC01202BBC8A00ACA67C /* Sources */,
 				61A7CC02202BBC8A00ACA67C /* Frameworks */,
 				61A7CC03202BBC8A00ACA67C /* Resources */,
+				28BD358302FF045F03DC9766 /* [CP] Embed Pods Frameworks */,
+				87969C17465EF8B5FD07C3F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +242,76 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28BD358302FF045F03DC9766 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CloudKitBulletin/Pods-CloudKitBulletin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudKitBulletin/Pods-CloudKitBulletin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87969C17465EF8B5FD07C3F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudKitBulletin/Pods-CloudKitBulletin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF0AFBDC1CAB56DEE9AB0924 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudKitBulletin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61A7CC01202BBC8A00ACA67C /* Sources */ = {
@@ -373,6 +462,7 @@
 		};
 		61A7CC18202BBC8A00ACA67C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5558E8977FA28DF4B7D3EDB0 /* Pods-CloudKitBulletin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CloudKitBulletin.entitlements;
@@ -389,6 +479,7 @@
 		};
 		61A7CC19202BBC8A00ACA67C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4394A67D231AA52128B49810 /* Pods-CloudKitBulletin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CloudKitBulletin.entitlements;
