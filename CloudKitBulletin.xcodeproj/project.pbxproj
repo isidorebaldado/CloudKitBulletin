@@ -20,6 +20,8 @@
 		61A7CC2C202BC08000ACA67C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC2B202BC08000ACA67C /* Post.swift */; };
 		61A7CC52202BC7F900ACA67C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A7CC51202BC7F900ACA67C /* CloudKit.framework */; };
 		61A7CC54202BC91B00ACA67C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7CC53202BC91B00ACA67C /* User.swift */; };
+		61F42385202CD3C600C35145 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F42384202CD3C600C35145 /* FirestoreManager.swift */; };
+		61F42387202CD62D00C35145 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61F42386202CD62D00C35145 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		61A7CC4F202BC7F700ACA67C /* CloudKitBulletin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitBulletin.entitlements; sourceTree = "<group>"; };
 		61A7CC51202BC7F900ACA67C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		61A7CC53202BC91B00ACA67C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		61F42384202CD3C600C35145 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		61F42386202CD62D00C35145 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		61A7CC07202BBC8A00ACA67C /* CloudKitBulletin */ = {
 			isa = PBXGroup;
 			children = (
+				61F42386202CD62D00C35145 /* GoogleService-Info.plist */,
 				61A7CC1F202BBF7B00ACA67C /* Model Controllers */,
 				61A7CC1E202BBF5600ACA67C /* Resources */,
 				61A7CC1D202BBF5100ACA67C /* Model */,
@@ -127,6 +132,7 @@
 			children = (
 				61A7CC25202BBFAF00ACA67C /* CloudKitManager.swift */,
 				61A7CC29202BBFCD00ACA67C /* DataProvider.swift */,
+				61F42384202CD3C600C35145 /* FirestoreManager.swift */,
 			);
 			path = Backend;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61A7CC13202BBC8A00ACA67C /* LaunchScreen.storyboard in Resources */,
+				61F42387202CD62D00C35145 /* GoogleService-Info.plist in Resources */,
 				61A7CC10202BBC8A00ACA67C /* Assets.xcassets in Resources */,
 				61A7CC0E202BBC8A00ACA67C /* Main.storyboard in Resources */,
 			);
@@ -223,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61A7CC0B202BBC8A00ACA67C /* LoginViewController.swift in Sources */,
+				61F42385202CD3C600C35145 /* FirestoreManager.swift in Sources */,
 				61A7CC2A202BBFCD00ACA67C /* DataProvider.swift in Sources */,
 				61A7CC21202BBF8A00ACA67C /* PostController.swift in Sources */,
 				61A7CC26202BBFAF00ACA67C /* CloudKitManager.swift in Sources */,

@@ -11,6 +11,8 @@ import Foundation
 
 protocol DataProvider{
     
+    var offersSubscriptions: Bool {get}
+    
     var subOnCreateFiresWithSelf: Bool {get}
     
     func save(_ post: Post, completion: @escaping (_ success: Bool) -> Void)

@@ -34,6 +34,7 @@ class CloudKitManager: DataProvider{
     let publicDB = CKContainer.default().publicCloudDatabase
     
     var subOnCreateFiresWithSelf: Bool {return false}
+    var offersSubscriptions: Bool {return true}
    
     func isUserLoggedIn(completion: @escaping (_ success: Bool) -> Void){
         CKContainer.default().fetchUserRecordID { (record, error) in

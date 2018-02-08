@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>789173495303-ascp53t4tpl4kjii4fjbu16i01f66dof.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.789173495303-ascp53t4tpl4kjii4fjbu16i01f66dof</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCbiNLu6_DW6C_taefwhgRb8vzQkypBBmM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>789173495303</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Isidore.UNUSED.CloudKitBulletin</string>
+	<key>PROJECT_ID</key>
+	<string>bulletin-acf7c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bulletin-acf7c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:789173495303:ios:1e345acc711d99b4</string>
+	<key>DATABASE_URL</key>
+	<string>https://bulletin-acf7c.firebaseio.com</string>
+</dict>
+</plist>
